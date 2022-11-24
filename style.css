@@ -1,0 +1,90 @@
+.body{
+	margin:auto;
+}
+.main{
+	width:700px;	
+	border:5px solid gray;
+	background-color:black;
+	padding:60px 0px;
+}
+.sub{	
+	width:500px;
+	border: 2px solid gray;	
+	margin:auto;
+	
+}
+.dmy-main{
+	display:flex;
+	
+}
+.dmy{
+	width:33.33%;
+	border: 2px solid gray;
+	text-align:center;
+	font-size:30px;
+}
+.dmy span{
+	color:white;
+	
+}
+.dmy strong{
+	display:block;
+	color:red;
+	background-color:rgba(255, 99, 71, 0.4);
+}
+.time{
+	display:flex;
+}
+.timelogo{
+	border:2px solid gray;
+	color:white;
+	text-align:center;
+	font-weight:bold;
+	padding:10px 0px;
+	
+}
+.time div{
+	width:25%;
+	border:2px solid gray;
+	font-size:20px;
+	text-align:center;
+}
+.time span{
+	color:white;	
+}
+
+.time strong{
+	display:block;
+	color:red;
+	background-color:rgba(255, 99, 71, 0.4);
+}
+.days{
+	display:flex;
+	align-items:center;
+}
+.days div{
+	width:100%;
+	border: 2px solid gray;
+	text-align:center
+}
+.days span{
+	display:inline-block;
+	border: 2px solid red;
+	border-radius:50%;
+	width:30%;
+	height:20px;
+}
+.noon span{
+	display:inline-block;
+	border: 2px solid red;
+	border-radius:50%;
+	width:30%;
+	height:20px;
+}
+.days strong{
+	width:70%;
+	color:white;
+}
+.week.active{
+	background-color:red;
+}
